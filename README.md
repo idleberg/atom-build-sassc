@@ -9,6 +9,8 @@
 
 [Atom Build](https://atombuild.github.io/) provider for `sassc`, compiles Sass into CSS. Supports the [linter](https://atom.io/packages/linter) package for error highlighting.
 
+If you prefer Ruby Sass, take note of the separate [build-sassc](https://atom.io/packages/build-sass) package. Consult this [comparison chart](http://sass-compatibility.github.io/) for details.
+
 ## Installation
 
 ### apm
