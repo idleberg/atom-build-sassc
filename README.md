@@ -11,6 +11,10 @@
 
 If you prefer Ruby Sass, take note of the separate [build-sass](https://atom.io/packages/build-sass) package. When in doubt, consult the [Sass Compatibility](http://sass-compatibility.github.io/) chart.
 
+![Screenshot](https://raw.githubusercontent.com/idleberg/atom-build-sassc/master/screenshot.png)
+
+*See the linter in action*
+
 ## Installation
 
 ### apm
