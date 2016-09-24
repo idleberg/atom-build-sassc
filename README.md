@@ -44,8 +44,8 @@ $ git clone https://github.com/idleberg/atom-build-sassc build-sassc
 Install Node dependencies:
 
 ```bash
-cd build-sassc
-npm install
+$ cd build-sassc
+$ npm install
 ```
 
 ## Usage
