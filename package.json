@@ -1,6 +1,6 @@
 {
   "name": "build-sassc",
-  "version": "0.3.9",
+  "version": "0.3.10",
   "description": "Atom Build provider for sassc, compiles Sass",
   "repository": "https://github.com/idleberg/atom-build-sassc",
   "license": "MIT",
