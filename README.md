@@ -23,7 +23,7 @@ Install `build-sassc` from Atom's [Package Manager](http://flight-manual.atom.io
 
 `$ apm install build-sassc`
 
-### GitHub
+### Using Git
 
 Change to your Atom packages directory:
 
