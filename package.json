@@ -5,7 +5,7 @@
   "repository": "https://github.com/idleberg/atom-build-sassc",
   "license": "MIT",
   "keywords": [
-    "build-provider",
+    "buildprovider",
     "compile",
     "sass",
     "sassc",
