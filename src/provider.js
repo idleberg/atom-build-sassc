@@ -41,7 +41,7 @@ export function provideBuilder() {
         '(?<message>Error: .*)\\n\\s+on line (?<line>\\d+) of (?<file>.*)\\n'
       ];
 
-      const pathToSass = getConfig('pathToSass');
+      const pathToSass = getConfig('pathToSass') || 'sassc';
       const customArguments = getConfig('customArguments').trim().split(' ');
 
       return [
