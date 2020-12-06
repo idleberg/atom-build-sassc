@@ -29,7 +29,7 @@ export function provideBuilder() {
       }
 
       const cmd = spawnSync(which(), [getConfig('pathToSass')]);
-      if (!cmd.stdout?.toString()) {
+      if (!cmd.stdout?.toString().length) {
         return false;
       }
 
