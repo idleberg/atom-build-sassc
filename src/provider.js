@@ -38,7 +38,7 @@ export function provideBuilder() {
 
     settings() {
       const errorMatch = [
-        '(?<message>Error: .*)\\n\\s+on line (?<line>\\d+) of (?<file>.*)\\n',
+        '(?<message>Error: .*)\\n\\s+on line (?<line>\\d+) of (?<file>.*)\\n'
       ];
 
       const pathToSass = getConfig('pathToSass');
@@ -52,7 +52,7 @@ export function provideBuilder() {
           cwd: '{FILE_ACTIVE_PATH}',
           sh: false,
           atomCommandName: 'sassc:compile',
-          errorMatch: errorMatch,
+          errorMatch
         },
         {
           name: 'SassC (compact)',
@@ -61,12 +61,12 @@ export function provideBuilder() {
             '--style',
             'compact',
             '{FILE_ACTIVE}',
-            '{FILE_ACTIVE_NAME_BASE}.css',
+            '{FILE_ACTIVE_NAME_BASE}.css'
           ],
           cwd: '{FILE_ACTIVE_PATH}',
           sh: false,
           atomCommandName: 'sassc:compile-compact',
-          errorMatch: errorMatch,
+          errorMatch
         },
         {
           name: 'SassC (compressed)',
@@ -75,12 +75,12 @@ export function provideBuilder() {
             '--style',
             'compressed',
             '{FILE_ACTIVE}',
-            '{FILE_ACTIVE_NAME_BASE}.min.css',
+            '{FILE_ACTIVE_NAME_BASE}.min.css'
           ],
           cwd: '{FILE_ACTIVE_PATH}',
           sh: false,
           atomCommandName: 'sassc:compile-compressed',
-          errorMatch: errorMatch,
+          errorMatch
         },
         {
           name: 'SassC (expanded)',
@@ -89,12 +89,12 @@ export function provideBuilder() {
             '--style',
             'expanded',
             '{FILE_ACTIVE}',
-            '{FILE_ACTIVE_NAME_BASE}.css',
+            '{FILE_ACTIVE_NAME_BASE}.css'
           ],
           cwd: '{FILE_ACTIVE_PATH}',
           sh: false,
           atomCommandName: 'sassc:compile-compressed',
-          errorMatch: errorMatch,
+          errorMatch
         },
         {
           name: 'SassC (user)',
@@ -103,8 +103,8 @@ export function provideBuilder() {
           cwd: '{FILE_ACTIVE_PATH}',
           sh: false,
           atomCommandName: 'sassc:compile-with-user-settings',
-          errorMatch: errorMatch,
-        },
+          errorMatch
+        }
       ];
     }
   };
