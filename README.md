@@ -1,11 +1,10 @@
 # build-sassc
 
-[![apm](https://img.shields.io/apm/l/build-sassc.svg?style=flat-square)](https://atom.io/packages/build-sassc)
-[![apm](https://img.shields.io/apm/v/build-sassc.svg?style=flat-square)](https://atom.io/packages/build-sassc)
-[![apm](https://img.shields.io/apm/dm/build-sassc.svg?style=flat-square)](https://atom.io/packages/build-sassc)
-[![Travis](https://img.shields.io/travis/idleberg/atom-build-sassc.svg?style=flat-square)](https://travis-ci.org/idleberg/atom-build-sassc)
-[![David](https://img.shields.io/david/idleberg/atom-build-sassc.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-sassc)
-[![David](https://img.shields.io/david/dev/idleberg/atom-build-sassc.svg?style=flat-square)](https://david-dm.org/idleberg/atom-build-sassc?type=dev)
+[![apm](https://flat.badgen.net/apm/license/build-sassc)](https://atom.io/packages/build-sassc)
+[![apm](https://flat.badgen.net/apm/v/build-sassc)](https://atom.io/packages/build-sassc)
+[![apm](https://flat.badgen.net/apm/dl/build-sassc)](https://atom.io/packages/build-sassc)
+[![CircleCI](https://flat.badgen.net/circleci/github/idleberg/atom-build-sassc)](https://circleci.com/gh/idleberg/atom-build-sassc)
+[![David](https://flat.badgen.net/david/dep/idleberg/atom-build-sassc)](https://david-dm.org/idleberg/atom-build-sassc)
 
 [Atom Build](https://atombuild.github.io/) provider for `sassc`, compiles Sass into CSS. Supports the [linter](https://atom.io/packages/linter) package for error highlighting.
 
