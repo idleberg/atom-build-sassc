@@ -68,8 +68,7 @@
   "prettier": {
     "quoteProps": "consistent",
     "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5"
+    "singleQuote": true
   },
   "husky": {
     "hooks": {
