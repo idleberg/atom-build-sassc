@@ -35,6 +35,6 @@ jobs:
 workflows:
   node-run-tests:
     jobs:
-      - node-latest
-      - node-lts
+    - node-latest
+    - node-lts
   version: 2
