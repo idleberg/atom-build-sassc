@@ -1,16 +1,26 @@
 /* eslint-disable */
 module.exports = {
-  parser: "babel-eslint",
-  extends: [
-    "atom-build",
-    "plugin:json/recommended"
-  ],
-  rules:{
-    "consistent-return": 0,
-    "no-console": 0
+  root: true,
+  env: {
+    browser: true,
+    es6: true,
+    node: true
   },
+  extends: [
+    'eslint:recommended',
+    'plugin:json/recommended'
+  ],
   ignorePatterns: [
-    "lib/**/*",
-    "node_modules/**/*"
-  ]
+    '/lib',
+    '/node_modules'
+  ],
+  globals: {
+    atom: "readonly"
+  },
+  parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: "module"
+  },
+  plugins: [],
+  rules: {}
 };
