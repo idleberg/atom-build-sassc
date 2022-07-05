@@ -1,7 +1,7 @@
-# build-sassc
-
 > **Warning**
 > Since [LibSass is deprecated](https://sass-lang.com/blog/libsass-is-deprecated), this package will not receive further updates
+
+# build-sassc
 
 [![apm](https://flat.badgen.net/apm/license/build-sassc)](https://atom.io/packages/build-sassc)
 [![apm](https://flat.badgen.net/apm/v/build-sassc)](https://atom.io/packages/build-sassc)
